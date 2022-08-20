@@ -5,7 +5,7 @@ const bodyPaerser = require('body-parser')
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Test");
+  res.sendFile(__dirname + "/client/index.html");
 });
 
 app.listen(process.env.PORT || 3000, () => {
