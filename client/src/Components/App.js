@@ -1,9 +1,12 @@
 import React from 'react'
+import  '../Styles/base.scss'
 
-const App = () => {
+export default  function App()  {
   return (
-    <div>My React Appss</div>
+    <div className="test">
+      My React Appss
+      </div>
   )
 }
 
-export default App
+// export default App
